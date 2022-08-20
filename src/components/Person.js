@@ -1,6 +1,6 @@
 import React from "react";
 
-function Person({person}){
+function person({person}){
     return (
         <div>
             <h2>I am {person.name}. I am {person.age} Years old.I know {person.skill}</h2>
@@ -8,4 +8,4 @@ function Person({person}){
     )
 }
 
-export default Person
+export default person
