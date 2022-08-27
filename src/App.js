@@ -6,6 +6,8 @@ import StyleSheet from './components/StyleSheet';
 import './appStyles.css'
 import Fragment from './components/Fragment';
 import Table from './components/Table';
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       {/* {<StyleSheet secondary={false} />} */}
       {/* {<Fragment/>} */}
       {/* {<Table/>} */}
+      {/* {<ClassCounter/>} */}
+      {/* {<HookCounter/>} */}
     </div>
   );
 }
