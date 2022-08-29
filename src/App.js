@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import NameList from './components/NameList';
-import FunctionClick from './components/FunctionClick';
-import StyleSheet from './components/StyleSheet';
 import './appStyles.css'
-import Fragment from './components/Fragment';
-import Table from './components/Table';
-import ClassCounter from './components/ClassCounter';
-import HookCounter from './components/HookCounter';
+import NameList from './components/beginning/NameList';
+import FunctionClick from './components/beginning/FunctionClick';
+import StyleSheet from './components/beginning/StyleSheet';
+import Fragment from './components/beginning/Fragment';
+import Table from './components/beginning/Table';
+import ClassCounter from './components/beginning/ClassCounter';
+import HookCounter from './components/useStateHook/HookCounter';
+import HookCounter2 from './components/useStateHook/HookCounter2';
+import HookCounter3 from './components/useStateHook/HookCounter3';
+import HookCounter4 from './components/useStateHook/HookCounter4';
+import HookCounter1_UE from './components/useEffectHook/HookCounter1_UE';
 
 function App() {
   return (
@@ -20,6 +24,11 @@ function App() {
       {/* {<Table/>} */}
       {/* {<ClassCounter/>} */}
       {/* {<HookCounter/>} */}
+      {/* {<HookCounter2/>} */}
+      {/* {<HookCounter3/>} */}
+      {/* {<HookCounter4/>} */}
+
+      {<HookCounter1_UE/>}
     </div>
   );
 }
